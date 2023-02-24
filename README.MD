@@ -18,10 +18,10 @@ Projeto de uma simples calculadora usando, apenas versão de testes. <br/>
 <br>
 
 <p align="center">
-  <img alt="projeto Habits" src=assets/calculadora.jpg width="100%">
+  <img alt="projeto calculadora" src=assets/calculadora.jpg width="100%">
 </p>
 
-## 🚀 Tecnologias
+## 🤖 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
