@@ -18,7 +18,7 @@ Projeto de uma simples calculadora usando, apenas versão de testes. <br/>
 <br>
 
 <p align="center">
-  <img alt="projeto calculadora" src=assets/calculadora.jpg width="100%">
+  <img alt="projeto calculadora" src="Captura de tela 2023-02-22 180057.png" width="100%">
 </p>
 
 ## 🤖 Tecnologias
@@ -36,6 +36,3 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ---
 
 desenvolvido por Gabriel Sousa
-
-<img alt="linkedin" src=assets/linkedin.svg> [linkedin](https://www.linkedin.com/in/gabriel-nascimento-sousa-795129149/)
-</p>
