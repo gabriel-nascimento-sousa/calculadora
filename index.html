@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main>
+
+        <h1>Calculadora</h1>
+        <div id="calculator">
+            <div id="screen"></div>
+            <table id="buttons">
+                <tr>
+                    <td><button id="CE" onclick="limpar()">CE</button></td>
+                    <td><button onclick="delet()" >C</button></td>
+                    <td><button onclick="insert('%')">%</button></td>
+                    <td><button id="operador" onclick="insert('/')">/</button></td>
+                </tr>
+                <tr>
+                    <td><button  onclick="insert('9')">9</button></td>
+                    <td><button onclick="insert('8')">8</button></td>
+                    <td><button onclick="insert('7')">7</button></td>
+                    <td><button id="operador" id="CE" onclick="insert('*')">X</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="insert('6')">6</button></td>
+                    <td><button onclick="insert('5')"><p></p> 5</button></td>
+                    <td><button onclick="insert('4')"><p>4</p></button></td>
+                    <td><button id="operador" onclick="insert('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button>3</button></td>
+                    <td><button onclick="insert('2')">2</button></td>
+                    <td><button onclick="insert('1')">1</button></td>
+                    <td><button id="operador" onclick="insert('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="insert('+ -')">+/-</button></td>
+                    <td><button onclick="insert('0')">0</button></td>
+                    <td><button onclick="insert('.')">.</button></td>
+                    <td><button id="operador" onclick="calcular()">=</button></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

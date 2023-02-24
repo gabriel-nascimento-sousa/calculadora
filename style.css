@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(100, 1, 186);
+}
+#calculator{
+    background-color: rgb(33, 32, 32);
+    
+    height: 450px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px black;
+}
+#screen{
+    display: flex;
+    background-color: rgb(23, 37, 15);
+    width: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 29px;
+    height: 5px;
+    padding: 30px;
+    position: absolute;
+    border-radius: 10px;
+    justify-content: end;
+    align-items: center;
+    font-size: 35px;
+    color: rgb(200, 155, 32);
+}
+#buttons{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-35%);
+    padding: 10px;
+}
+button{
+    margin: 5px;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    text-align: center;
+    border: none;
+    background-color: rgb(62, 61, 61);
+    color: white;
+    box-shadow: 5px 5px 20px black;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    background-color: rgb(27, 27, 27);
+}
+#operador{
+    background-color: rgb(131, 96, 0);
+
+}
+#operador:hover{
+    background-color: rgb(98, 72, 0);
+}
+#CE{
+    color: rgb(179, 132, 4);
+} 
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
